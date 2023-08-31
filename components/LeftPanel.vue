@@ -7,7 +7,7 @@
             </h1>
 
             <!-- role -->
-            <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Aspiring Web Developer & UI Designer 🌐 | IT Support Enthusiast 💻</h2>
+            <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Web Developer & UI Designer 🌐 | IT Support Enthusiast 💻</h2>
             <!-- bio -->
             <p class="mt-4 max-w-xs leading-normal text-slate-400">
             I build accessible, inclusive products and digital experiences for the
