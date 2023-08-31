@@ -60,7 +60,7 @@ export default defineEventHandler((event) => {
             title:'Personal Website',
             year:'2023',
             description:' this is my portfolio. Built with Nuxt.js, Vue.js, and Tailwind CSS, it is a dynamic display of my skills and passion. Whether you\'re on a desktop or mobile, my responsive design ensures a seamless experience. Explore my journey at the intersection of creativity and technology.',
-            url:'https://kwakuampah.netlify.app',
+            url:'https://kwakuampah.vercel.app/',
             imageURL:'/screenhots/language-translator.png',
             chips: [
                 {name: 'Vue JS'},
