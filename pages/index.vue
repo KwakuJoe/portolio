@@ -5,6 +5,7 @@
     <div class="flex flex-col lg:flex-row gap-x-14">
       <!-- Left Side -->
       <LeftPanel>
+        {{}}
         <ul class="mt-16 w-max">
             <!-- bio -->
             <li>
@@ -43,6 +44,8 @@
              </a>
             </li>
           </ul>
+
+        <!-- Ledt Panel -->
       </LeftPanel>
 
       <!-- right side --> 
@@ -132,6 +135,25 @@ const scrollToSkills = () => {
         block: 'start', // Scroll to the top of the section
       });
     };
+
+
+
+
+    // Adding SEO
+    // runtime fonfig for base url
+    const runTimeConfig = useRuntimeConfig()
+    const baseUrl =  runTimeConfig.public.appUrl
+
+    console.log('test')
+
+    useSeoMeta({
+      title: 'Joseph Ampah',
+      ogTitle: 'Joseph Ampah',
+      description: 'Experienced software developer skilled in JavaScript, React, Node.js, and more. Check out my portfolio for high-quality software projects',
+      ogDescription: 'Experienced software developer skilled in JavaScript, React, Node.js, and more. Check out my portfolio for high-quality software projects',
+      ogImage: `${baseUrl}/seo/seo_logo.png`,
+      twitterCard: 'summary_large_image',
+    })
 
 </script>
 
