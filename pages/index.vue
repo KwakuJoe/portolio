@@ -47,8 +47,14 @@
 
       <!-- right side --> 
       <div class="flex flex-col  lg:w-1/2 h-full py-10 px-2 gap-y-20  overflow-auto  lg:py-16 pr-1">
+        <!-- Bio -->
         <section ref="bio">
             <Bio/>
+        </section>
+
+        <!-- Projects -->
+        <section ref="projects">
+          <Projects/>
         </section>
 
         <!-- Skills -->
@@ -61,11 +67,6 @@
           <Experiences/>
         </section>
 
-        
-        <!-- Experience -->
-        <section ref="projects">
-         <Projects/>
-        </section>
 
       </div>
 
