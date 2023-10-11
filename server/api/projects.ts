@@ -43,6 +43,20 @@ export default defineEventHandler((event) => {
             ]
         },
         {
+            title:'Veriphone',
+            year:'2023',
+            description:'Verify phone numbers worldwide with confidence using our powerful tool. Ensure accuracy and reliability in seconds. Built with Nuxt, Vue, Tailwind and Veriphone - Rapid API',
+            url:'https://veriphone.vercel.app/',
+            imageURL:'/screenhots/veriphone.png',
+            chips: [
+                {name: 'Vue JS'},
+                {name: 'Tailwind CSS'},
+                {name: 'Nuxt JS'},
+                {name: 'Veriphone API - A Rapid API'}
+
+            ]
+        },
+        {
             title:'Photo Social',
             year:'2023',
             description:'  Photo-Social is my brainchild—a vibrant platform that demonstrates my journey into Vue and Nuxt. This innovative creation marries Nuxt.js, AdonisJS, and the elegance of Tailwind CSS, showcasing my potential as a developer. Driven by PostgreSQL, this dynamic hub reflects my passion for Vue, Nuxt, and pushing boundaries. I\'m still working on addin new features like user follow as i dive into nuxt and anonisj further',
