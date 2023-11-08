@@ -13,6 +13,11 @@ export default defineEventHandler((event) => {
             category:'languages'
         },
         {
+            name:'Php',
+            icon:'devicon:php',
+            category:'languages'
+        },
+        {
             name:'HTML',
             icon:'vscode-icons:file-type-html',
             category:'languages'
@@ -51,6 +56,11 @@ export default defineEventHandler((event) => {
         {
             name:'Flutter',
             icon:'logos:flutter',
+            category:'libraries'
+        },
+        {
+            name:'Laravel',
+            icon:'logos:laravel',
             category:'libraries'
         },
         // Ux/UI
