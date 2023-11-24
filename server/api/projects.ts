@@ -59,7 +59,7 @@ export default defineEventHandler((event) => {
         {
             title:'Photo Social',
             year:'2023',
-            description:'  Photo-Social is my brainchild—a vibrant platform that demonstrates my journey into Vue and Nuxt. This innovative creation marries Nuxt.js, AdonisJS, and the elegance of Tailwind CSS, showcasing my potential as a developer. Driven by PostgreSQL, this dynamic hub reflects my passion for Vue, Nuxt, and pushing boundaries. I\'m still working on addin new features like user follow as i dive into nuxt and anonisj further',
+            description:'Photo-Social is my brainchild—a vibrant platform that demonstrates my journey into Vue and Nuxt. This innovative creation marries Nuxt.js, AdonisJS, and the elegance of Tailwind CSS, showcasing my potential as a developer. Driven by PostgreSQL, this dynamic hub reflects my passion for Vue, Nuxt, and pushing boundaries. I\'m still working on addin new features like user follow as i dive into nuxt and anonisj further',
             url:'https://github.com/KwakuJoe/photo-social',
             imageURL:'/screenhots/language-translator.png',
             chips: [
@@ -73,7 +73,7 @@ export default defineEventHandler((event) => {
         {
             title:'Personal Website',
             year:'2023',
-            description:' this is my portfolio. Built with Nuxt.js, Vue.js, and Tailwind CSS, it is a dynamic display of my skills and passion. Whether you\'re on a desktop or mobile, my responsive design ensures a seamless experience. Explore my journey at the intersection of creativity and technology.',
+            description:'This is my portfolio. Built with Nuxt.js, Vue.js, and Tailwind CSS, it is a dynamic display of my skills and passion. Whether you\'re on a desktop or mobile, my responsive design ensures a seamless experience. Explore my journey at the intersection of creativity and technology.',
             url:'https://kwakuampah.vercel.app/',
             imageURL:'/screenhots/language-translator.png',
             chips: [
@@ -82,6 +82,53 @@ export default defineEventHandler((event) => {
                 {name: 'Nuxt JS'},
                 {name: 'Adonis JS'}
 
+            ]
+        },
+        {
+            title:'Age Calculator',
+            year:'2023',
+            description:'Designed to elevate my Vue Skills. This ois a basic age calulator that takes date of birth input from users and then calculates their age. It was built with Vue 3 and Bootstrap',
+            url:'https://birthdate-age-converter.netlify.app/',
+            imageURL:'/screenhots/age-calculator-site.png',
+            chips: [
+                {name: 'Vue JS'},
+                {name: 'Bootstrap'}
+
+            ]
+        },
+        {
+            title:'Larvel E-commerce API Concept',
+            year:'2023',
+            description:'Designed to elevate my Laravel expertise, this E-commerce Site Concept API showcases a robust and comprehensive solution for managing products and orders, emphasizing secure authentication, role-based access, and seamless email notifications.',
+            url:'https://github.com/KwakuJoe/laravel-E-commerce-API-Concept',
+            imageURL:'N/A',
+            chips: [
+                {name: 'Laravel'},
+                {name: 'PHP'},
+                // {name: 'Bootstrap 5'},
+            ]
+        },
+        
+        {
+            title:'Store Inventory Management Dashboard',
+            year:'2022',
+            description:'Developed as my final year project during university, this Inventory Management System (IMS) Dashboard is a robust solution designed for efficient stock management. Built using AdonisJS, TailwindCSS, and Bootstrap, the dashboard seamlessly integrates with a Flutter mobile app (https://github.com/KwakuJoe/Inventory_scan_app), providing a comprehensive toolset for managing inventory.',
+            url:'https://github.com/KwakuJoe/Inventory_scan_dashbaord',
+            imageURL:'N/A',
+            chips: [
+                {name: 'AdonisJS'},
+                {name: 'Tailwind CSS'},
+                {name: 'Bootstrap 5'},
+            ]
+        },
+        {
+            title:'Store Inventory Scan App',
+            year:'2022',
+            description:'Complementing the Inventory Management System Dashboard (https://github.com/KwakuJoe/Inventory_scan_dashbaord), this mobile app, built with Flutter, serves as a versatile tool for on-the-go stock management. Focused on simplicity and efficiency, the app provides essential features such as scanning, product search, and real-time stock summaries, offering a seamless and convenient experience.',
+            url:'https://github.com/KwakuJoe/Inventory_scan_app',
+            imageURL:'N/A',
+            chips: [
+                {name: 'Flutter'},
             ]
         },
       ]

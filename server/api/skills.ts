@@ -100,6 +100,11 @@ export default defineEventHandler((event) => {
             icon:'logos:supabase',
             category:'tools'
         },
+        {
+            name:'Worpress',    
+            icon:'logos:wordpress',
+            category:'tools'
+        },
         // databases
         {
             name:'Postgres',    

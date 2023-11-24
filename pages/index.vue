@@ -5,7 +5,6 @@
     <div class="flex flex-col lg:flex-row gap-x-14">
       <!-- Left Side -->
       <LeftPanel>
-        {{}}
         <ul class="mt-16 w-max">
             <!-- bio -->
             <li>
