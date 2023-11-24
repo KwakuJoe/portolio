@@ -148,8 +148,8 @@ const scrollToSkills = () => {
     useSeoMeta({
       title: 'Joseph Ampah',
       ogTitle: 'Joseph Ampah',
-      description: 'Experienced software developer skilled in JavaScript, React, Node.js, and more. Check out my portfolio for high-quality software projects',
-      ogDescription: 'Experienced software developer skilled in JavaScript, React, Node.js, and more. Check out my portfolio for high-quality software projects',
+      description: 'A passionate individual with a flair for crafting engaging digital experiences. My journey in the tech world began with a fascination for web developemnt, and over time, I have honed my skills to a mid-level proficiency.',
+      ogDescription: 'A passionate individual with a flair for crafting engaging digital experiences. My journey in the tech world began with a fascination for web developemnt, and over time, I have honed my skills to a mid-level proficiency.',
       ogImage: `${baseUrl}/seo/seo_logo.png`,
       twitterCard: 'summary_large_image',
     })
