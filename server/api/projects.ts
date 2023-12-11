@@ -131,6 +131,17 @@ export default defineEventHandler((event) => {
                 {name: 'Flutter'},
             ]
         },
+        {
+            title:'Invoice Management Backend API',
+            year:'2022',
+            description:'Developed a Invoice management API using PhP/Laravel, This solution empowers users with centralized client and product management, simplifies invoice creation with customizable templates, and automates email delivery with dynamic links and attachments. The API\'s user-friendly design and robust tracking capabilities provide businesses with valuable insights into their invoicing workflows.',
+            url:'https://github.com/KwakuJoe/invoicy-backend',
+            imageURL:'N/A',
+            chips: [
+                {name: 'Laravel'},
+                {name: 'PHP'},
+            ]
+        },
       ]
     }
   })
