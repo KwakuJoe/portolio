@@ -29,6 +29,20 @@ export default defineEventHandler((event) => {
             ]
         },
         {
+            title:'Laraevel-Vue/Nuxt 3 Authentication',
+            year:'2024',
+            description:'This project aims to provide an improved full-stack experience using Nuxt/Vue 3 for the frontend and Laravel 10 for the backend. It offers robust user authentication and management features, including login, registration, password change, email activation, and profile updates. The system utilizes email services to facilitate secure communication between the application and its users.',
+            url:'https://invoicy-frontend.vercel.app/',
+            imageURL:'/screenhots/nuxt-laravel-auth.png',
+            chips: [
+                {name: 'Vue JS'},
+                {name: 'Tailwind CSS'},
+                {name: 'Nuxt JS'},
+                {name: 'Laravel API'},
+                {name: 'Nuxt UI & Nuxt Icon'},
+            ]
+        },
+        {
             title:'Language Translator',
             year:'2023',
             description:'Introducing my Language Translator—a Nuxt.js and Vue.js web app that brings languages together. With a sleek Tailwind CSS design, it effortlessly translates across 20+ languages. Seamlessly toggle between dark and light themes, and experience responsive translation magic through the power of the Rapid API. Connect globally with ease. Needs to upgrade the API subscription',
