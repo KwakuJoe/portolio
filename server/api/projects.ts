@@ -5,6 +5,19 @@ export default defineEventHandler((event) => {
       message: 'projects query',
       projects:[
         {
+            title:'Brij Merchant Payment Portal',
+            year:'2024',
+            description:'Brij Merchant Payment Portal fro receiving payment across Multiple African countries. Payment method include both Card and Mobile Money (MoMo).',
+            url:'https://pay.brij.money/paymentlinks/bd327VAnDm?business_name=Techy+Innovation',
+            imageURL:'/screenhots/payment-portal.png',
+            chips: [
+                {name: 'Nuct JS'},
+                {name: 'Tailwind CSS'},
+                {name: 'Rapid Dictionary API'},
+                {name: 'Maz UI'}
+            ]
+        },
+        {
             title:'Wiki Dictionary',
             year:'2023',
             description:'Discover language like never before with my latest project. I\'ve built a dictionary web app using Vue 3 and Tailwind CSS, offering seamless exploration of words. Powered by the Rapid API, it provides synonyms, pronunciations, and examples. Switch between dark and light themes, and enjoy full responsiveness across devices. Unlock the world of words with ease.',
