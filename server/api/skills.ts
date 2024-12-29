@@ -53,11 +53,11 @@ export default defineEventHandler((event) => {
             icon:'logos:bootstrap',
             category:'libraries'
         },
-        // {
-        //     name:'Flutter',
-        //     icon:'logos:flutter',
-        //     category:'libraries'
-        // },
+        {
+            name:'Flutter',
+            icon:'logos:flutter',
+            category:'libraries'
+        },
         {
             name:'Laravel (Basics)',
             icon:'logos:laravel',
