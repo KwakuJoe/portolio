@@ -5,6 +5,19 @@ export default defineEventHandler((event) => {
       message: 'projects query',
       projects:[
         {
+            title:'Notely App',
+            year:'2024',
+            description:'This is my first official flutter app. It basically a note taking app back by supabase. It has authentication including google sign in.',
+            url:'https://github.com/KwakuJoe/Notely',
+            imageURL:'/screenhots/notely.png',
+            chips: [
+                {name: 'Flutter'},
+                {name: 'Dart'},
+                {name: 'Supabase'},
+                {name: 'Auth'}
+            ]
+        },
+        {
             title:'Brij Merchant Payment Portal',
             year:'2024',
             description:'Brij Merchant Payment Portal fro receiving payment across Multiple African countries. Payment method include both Card and Mobile Money (MoMo).',
